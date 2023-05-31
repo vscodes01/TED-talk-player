@@ -1,0 +1,11 @@
+.video-player {
+  height: 475px;
+  width: 700px;
+  padding-left: 320px;
+  padding-top: 50px;
+}
+
+.video-player__frame {
+  border-radius: 10px;
+  border-color: transparent;
+}
