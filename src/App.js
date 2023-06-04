@@ -6,7 +6,7 @@ import Footer from "./Components/Footer";
 function App() {
   const [category, setCategory] = useState("Happiness");
 
-  const filtereVideos = DUMMY_DATA.filter((videoInfo) =>
+  const filteredVideos = DUMMY_DATA.filter((videoInfo) =>
     videoInfo.category === category ? category : ""
   );
 
@@ -20,13 +20,15 @@ function App() {
   return (
     <div>
       <Header onCategoryGetter={categoryGetterHandler} />
-      {filtereVideos.map((videoInfo) => (
+
+      {filteredVideos.map((videoInfo) => (
         <Videos
           title={videoInfo.title}
           videoLink={videoInfo.videoLink}
           category={videoInfo.category}
         />
       ))}
+
       <Footer />
     </div>
   );

@@ -1,7 +1,8 @@
 .header {
+  position: sticky;
   display: flex;
   flex-direction: row;
-  background-color: bisque;
+  background-color: rgb(237, 122, 141);
   padding-left: 50px;
   box-shadow: 0 8px 6px -6px grey;
   height: 70px;
@@ -9,7 +10,8 @@
 
 .category {
   padding-left: 30px;
-  color: rgb(37, 23, 23);
+  color: white;
+  /* color: rgb(37, 23, 23); */
   cursor: pointer;
 }
 
@@ -23,5 +25,6 @@
   padding-top: 5px;
   padding-bottom: 25px;
   padding-right: 800px;
-  color: rgb(37, 23, 23);
+  color: white;
+  /* color: rgb(37, 23, 23); */
 }
