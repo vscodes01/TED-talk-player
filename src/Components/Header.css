@@ -1,3 +1,7 @@
+.font-link {
+  font-family: "Tilt Prism", cursive;
+}
+
 .header {
   position: sticky;
   display: flex;
@@ -24,7 +28,7 @@
   font-size: 20px;
   padding-top: 5px;
   padding-bottom: 25px;
-  padding-right: 800px;
+  padding-right: 700px;
   color: white;
   /* color: rgb(37, 23, 23); */
 }

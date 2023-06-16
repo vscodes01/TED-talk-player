@@ -10,6 +10,7 @@ function Videos(props) {
         width="700"
         title={props.title}
         src={props.videoLink}
+        allowFullScreen
       ></iframe>
     </div>
   );

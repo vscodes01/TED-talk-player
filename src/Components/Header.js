@@ -8,15 +8,18 @@ function Header(props) {
 
   return (
     <div className="header">
-      <h3 className="title">Top3 TEDs</h3>
-      <h3 className="category" value="Happiness" onClick={clickHandler}>
+      <h3 className="title font-link">Top TEDs</h3>
+      <h3 className="category font-link" onClick={clickHandler}>
         Happiness
       </h3>
-      <h3 className="category" value="Psychology" onClick={clickHandler}>
+      <h3 className="category font-link" onClick={clickHandler}>
         Psychology
       </h3>
-      <h3 className="category" value="Efficiency" onClick={clickHandler}>
+      <h3 className="category font-link" onClick={clickHandler}>
         Efficiency
+      </h3>
+      <h3 className="category font-link" onClick={clickHandler}>
+        Others
       </h3>
     </div>
   );
